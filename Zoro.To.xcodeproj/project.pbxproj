@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3AD96C12ADA3EB1005A7372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96C02ADA3EB1005A7372 /* AppDelegate.swift */; };
+		B3AD96C32ADA3EB1005A7372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96C22ADA3EB1005A7372 /* SceneDelegate.swift */; };
+		B3AD96C52ADA3EB1005A7372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96C42ADA3EB1005A7372 /* ViewController.swift */; };
+		B3AD96C82ADA3EB1005A7372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96C62ADA3EB1005A7372 /* Main.storyboard */; };
+		B3AD96CA2ADA3EB2005A7372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96C92ADA3EB2005A7372 /* Assets.xcassets */; };
+		B3AD96CD2ADA3EB2005A7372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96CB2ADA3EB2005A7372 /* LaunchScreen.storyboard */; };
+		B3AD96D62ADA4177005A7372 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96D52ADA4177005A7372 /* UIView+Extension.swift */; };
+		B3AD96DC2ADA432C005A7372 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96DB2ADA432C005A7372 /* Montserrat-Regular.ttf */; };
+		B3AD96E12ADA4358005A7372 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96DD2ADA4358005A7372 /* Montserrat-Medium.ttf */; };
+		B3AD96E22ADA4358005A7372 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96DE2ADA4358005A7372 /* Montserrat-SemiBold.ttf */; };
+		B3AD96E32ADA4358005A7372 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96DF2ADA4358005A7372 /* Montserrat-ExtraBold.ttf */; };
+		B3AD96E42ADA4358005A7372 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AD96E02ADA4358005A7372 /* Montserrat-Bold.ttf */; };
+		B3AD96E82ADA4E94005A7372 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96E72ADA4E94005A7372 /* SignupViewController.swift */; };
+		B3AD96EA2ADAB306005A7372 /* SpalshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD96E92ADAB306005A7372 /* SpalshViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3AD96BD2ADA3EB1005A7372 /* Zoro.To.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoro.To.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AD96C02ADA3EB1005A7372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3AD96C22ADA3EB1005A7372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3AD96C42ADA3EB1005A7372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3AD96C72ADA3EB1005A7372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3AD96C92ADA3EB2005A7372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3AD96CC2ADA3EB2005A7372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3AD96CE2ADA3EB2005A7372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AD96D52ADA4177005A7372 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B3AD96DB2ADA432C005A7372 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B3AD96DD2ADA4358005A7372 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B3AD96DE2ADA4358005A7372 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3AD96DF2ADA4358005A7372 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B3AD96E02ADA4358005A7372 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B3AD96E72ADA4E94005A7372 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B3AD96E92ADAB306005A7372 /* SpalshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3AD96BA2ADA3EB1005A7372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3AD96B42ADA3EB1005A7372 = {
+			isa = PBXGroup;
+			children = (
+				B3AD96BF2ADA3EB1005A7372 /* Zoro.To */,
+				B3AD96BE2ADA3EB1005A7372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3AD96BE2ADA3EB1005A7372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96BD2ADA3EB1005A7372 /* Zoro.To.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3AD96BF2ADA3EB1005A7372 /* Zoro.To */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96DA2ADA42FD005A7372 /* ViewControllers */,
+				B3AD96D92ADA42ED005A7372 /* StoryBoards */,
+				B3AD96D82ADA42D0005A7372 /* Resources */,
+				B3AD96D42ADA415F005A7372 /* Extension */,
+				B3AD96C02ADA3EB1005A7372 /* AppDelegate.swift */,
+				B3AD96C22ADA3EB1005A7372 /* SceneDelegate.swift */,
+				B3AD96CE2ADA3EB2005A7372 /* Info.plist */,
+			);
+			path = Zoro.To;
+			sourceTree = "<group>";
+		};
+		B3AD96D42ADA415F005A7372 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96D52ADA4177005A7372 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B3AD96D72ADA42C7005A7372 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96DB2ADA432C005A7372 /* Montserrat-Regular.ttf */,
+				B3AD96E02ADA4358005A7372 /* Montserrat-Bold.ttf */,
+				B3AD96DF2ADA4358005A7372 /* Montserrat-ExtraBold.ttf */,
+				B3AD96DD2ADA4358005A7372 /* Montserrat-Medium.ttf */,
+				B3AD96DE2ADA4358005A7372 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B3AD96D82ADA42D0005A7372 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96C92ADA3EB2005A7372 /* Assets.xcassets */,
+				B3AD96D72ADA42C7005A7372 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3AD96D92ADA42ED005A7372 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96C62ADA3EB1005A7372 /* Main.storyboard */,
+				B3AD96CB2ADA3EB2005A7372 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B3AD96DA2ADA42FD005A7372 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3AD96C42ADA3EB1005A7372 /* ViewController.swift */,
+				B3AD96E72ADA4E94005A7372 /* SignupViewController.swift */,
+				B3AD96E92ADAB306005A7372 /* SpalshViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3AD96BC2ADA3EB1005A7372 /* Zoro.To */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AD96D12ADA3EB2005A7372 /* Build configuration list for PBXNativeTarget "Zoro.To" */;
+			buildPhases = (
+				B3AD96B92ADA3EB1005A7372 /* Sources */,
+				B3AD96BA2ADA3EB1005A7372 /* Frameworks */,
+				B3AD96BB2ADA3EB1005A7372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoro.To;
+			productName = Zoro.To;
+			productReference = B3AD96BD2ADA3EB1005A7372 /* Zoro.To.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3AD96B52ADA3EB1005A7372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B3AD96BC2ADA3EB1005A7372 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B3AD96B82ADA3EB1005A7372 /* Build configuration list for PBXProject "Zoro.To" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3AD96B42ADA3EB1005A7372;
+			productRefGroup = B3AD96BE2ADA3EB1005A7372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3AD96BC2ADA3EB1005A7372 /* Zoro.To */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3AD96BB2ADA3EB1005A7372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AD96E22ADA4358005A7372 /* Montserrat-SemiBold.ttf in Resources */,
+				B3AD96DC2ADA432C005A7372 /* Montserrat-Regular.ttf in Resources */,
+				B3AD96E12ADA4358005A7372 /* Montserrat-Medium.ttf in Resources */,
+				B3AD96CD2ADA3EB2005A7372 /* LaunchScreen.storyboard in Resources */,
+				B3AD96E42ADA4358005A7372 /* Montserrat-Bold.ttf in Resources */,
+				B3AD96CA2ADA3EB2005A7372 /* Assets.xcassets in Resources */,
+				B3AD96E32ADA4358005A7372 /* Montserrat-ExtraBold.ttf in Resources */,
+				B3AD96C82ADA3EB1005A7372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3AD96B92ADA3EB1005A7372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AD96C52ADA3EB1005A7372 /* ViewController.swift in Sources */,
+				B3AD96EA2ADAB306005A7372 /* SpalshViewController.swift in Sources */,
+				B3AD96C12ADA3EB1005A7372 /* AppDelegate.swift in Sources */,
+				B3AD96E82ADA4E94005A7372 /* SignupViewController.swift in Sources */,
+				B3AD96D62ADA4177005A7372 /* UIView+Extension.swift in Sources */,
+				B3AD96C32ADA3EB1005A7372 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3AD96C62ADA3EB1005A7372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3AD96C72ADA3EB1005A7372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3AD96CB2ADA3EB2005A7372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3AD96CC2ADA3EB2005A7372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3AD96CF2ADA3EB2005A7372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3AD96D02ADA3EB2005A7372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3AD96D22ADA3EB2005A7372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zoro.To/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Zoro-To";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3AD96D32ADA3EB2005A7372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zoro.To/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Zoro-To";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3AD96B82ADA3EB1005A7372 /* Build configuration list for PBXProject "Zoro.To" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AD96CF2ADA3EB2005A7372 /* Debug */,
+				B3AD96D02ADA3EB2005A7372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AD96D12ADA3EB2005A7372 /* Build configuration list for PBXNativeTarget "Zoro.To" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AD96D22ADA3EB2005A7372 /* Debug */,
+				B3AD96D32ADA3EB2005A7372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3AD96B52ADA3EB1005A7372 /* Project object */;
+}
