@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAqXKt9OcxVGXyQb1fGdY57PgUb5FL8YfI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>981644541298</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sagar.Zoro-To</string>
+	<key>PROJECT_ID</key>
+	<string>gogoanime-9b62b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gogoanime-9b62b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:981644541298:ios:993778314f3b2fd5f171eb</string>
+</dict>
+</plist>

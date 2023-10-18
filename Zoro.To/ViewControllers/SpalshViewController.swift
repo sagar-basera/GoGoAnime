@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SpalshViewController: UIViewController {
     //MARK: - IBoutlet's.
@@ -24,6 +25,7 @@ class SpalshViewController: UIViewController {
         image.alpha = 0
         titleLbl.alpha = 0
         animateSplash()
+        Analytics.logEvent("SplashVC", parameters: ["UserVisitedSplash":true])
     }
     
     private func animateSplash() {

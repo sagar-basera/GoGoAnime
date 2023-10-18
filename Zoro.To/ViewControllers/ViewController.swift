@@ -34,7 +34,8 @@ class ViewController: UIViewController {
     
     //MARK: - Sign-In BUTTON ACTION.
     @IBAction private func signInBtnAction(_ sender: UIButton) {
-        
+        var arr = [0]
+        var x = arr[1]
     }
     
     //MARK: - Register BUTTON ACTION.
